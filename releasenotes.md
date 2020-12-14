@@ -1,4 +1,11 @@
-
+- 17 November 2020 - Version 1.2
+    - New language supports for Telugu and Kannada. These are experimental lite recognition models. Their file sizes are only around 7% of other models and they are ~6x faster at inference with CPU.
+- 12 October 2020 - Version 1.1.10
+    - Faster beamsearch decoder (thanks @amitbcp)
+    - Better code structure (thanks @susmith98)
+    - New language supports for Haryanvi, Sanskrit (Devanagari Script) and Manipuri (Bengari script)
+- 31 August 2020 - Version 1.1.9
+    - Add `detect` and `recognize` method for performing text detection and recognition separately
 - 23 August 2020 - Version 1.1.8
     - 20 new language supports for Bengali, Assamese, Abaza, Adyghe, Kabardian, Avar,
     Dargwa, Ingush, Chechen, Lak, Lezgian, Tabassaran, Bihari, Maithili, Angika,
