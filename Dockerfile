@@ -14,6 +14,7 @@ RUN apt-get update -y && \
     libxrender-dev \
     libgl1-mesa-dev \
     git \
+    wget \
     # cleanup
     && apt-get autoremove -y \
     && apt-get clean -y \
